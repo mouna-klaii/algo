@@ -1,0 +1,22 @@
+ALGORITHM somme
+VAR
+   
+    tableau1 : ARRAY_OF INTEGER[4];
+    tableau2 : ARRAY_OF INTEGER[4]
+    sommetab := 0;
+
+BEGIN
+   FOR ( i =0;i < tableau1.length; i++) DO
+   FOR ( j =0; j< tableau2.length; j++) DO{
+    {
+       IF (tableau1[i] = tableau2[j]) THEN{
+sommetab := tableau1[i] + tableau2[j]
+       }
+       }
+       
+       END_IF 
+    }
+  
+       END_FOR
+        write(sommetab)
+END

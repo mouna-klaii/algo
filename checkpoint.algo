@@ -1,0 +1,13 @@
+ALGORITHM number_word
+VAR
+str : STRING := "my name is mouna";
+   count : INTEGER="0";
+BEGIN
+   FOR (i =0; i<str.length;i++) DO
+   {
+   /*IF (str.charAt[i] ='') THEN*/
+   count++;
+   END_IF 
+   END_FOR
+    write(count);
+END
