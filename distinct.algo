@@ -1,0 +1,6 @@
+ALGORITHM Distinct
+VAR
+   TAB1 : INTEGER := [3,1,7,9]
+BEGIN
+    set_instructions
+END
