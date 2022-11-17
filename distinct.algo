@@ -1,6 +1,16 @@
 ALGORITHM Distinct
 VAR
    TAB1 : INTEGER := [3,1,7,9]
+   TAB2 : INTEGER := [2,4,1,9,3]
+   i :=0;
+   j :=0;
+   somme :INTEGER :=0;
 BEGIN
-    set_instructions
+    FOR i FROM 0 TO i< TAB1.length STEP i++  DO
+        FOR j FROM 0 TO j< TAB2.length STEP j++
+        IF (TAB1[i] == TAB2[j]) THEN
+            somme := TAB1[i] + TAB2[j]
+        END_IF
+    END_FOR
+    write (somme)
 END
